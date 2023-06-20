@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prime Strike</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/scormfunctions.js" type="text/javascript"></script>
+  <script src="js/componente.js" type="text/javascript"></script>
+  <script src="js/drawGame.js" type="text/javascript"></script>
+  <script src="js/eventos.js" type="text/javascript"></script>
+  <script src="js/score.js" type="text/javascript"></script>
+  <script src="js/initGame.js" type="text/javascript"></script>
+</head>
+<body onload="initGame()">
+  <div class="contenido">
+    <h1>Prime Strike </h1>    
+    <canvas id="game-canvas" width="480px" height="340px"></canvas>  
+
+    <div class="divBotones">
+      <button id="reinicia" >Reiniciar</button>
+      <button id="registraNota" >Registrar resultado</button>
+    </div>
+    <h2> Controles</h2>
+    <p> En el juego se interactua con el jarrón que lanza la </p>
+    <ul>
+      <li><strong>Flechas izquierda/derecha:</strong> Mover jarrón de izquierda a derecha (estado verde). 
+      Cambiar el ángulo de tiro (estado amarillo)</li>
+      <li><strong>Flechas arriba/abajo:</strong> Cambiar el número primo a lanzar (estado verde y gris).
+      Cambiar de estado del jarron a verde si el jarrón está en modo ajuste de ángulo (estado amarillo).</li>
+      <li><strong>Barra espaciadora:</strong> Lanzar la bola numerada hacia la zona de juego 
+        (estado amarillo). Recoger la bola lanzada (estado gris). Pasar a preparar 
+        lanzamiento (estado verde).</li>
+    </ul>
+    <h2> Descripción</h2>
+    <p>"Prime Strike" es un emocionante juego en el que tu objetivo es lanzar 
+      bolas numeradas con números primos hacia un área de juego. 
+      En el primer nivel, solo hay una bola en la zona, pero a medida que avanzas, 
+      más bolas se unen al desafío. Tu misión es colisionar con las bolas en la zona 
+      que sean múltiplos del número primo lanzado. Cuando esto sucede, el número de 
+      la bola impactada se divide por el número primo lanzado. El objetivo final es dejar 
+      todas las bolas en la zona de juego con el número 1 para avanzar al siguiente nivel. 
+      Utiliza las flechas del teclado para mover el jarrón de izquierda a derecha y ajustar 
+      el ángulo de tiro. Las flechas arriba y abajo te permiten cambiar el número primo que 
+      lanzarás. ¡Demuestra tu destreza y habilidad numérica en "Prime Strike"!</p>
+    
+  </div>
+  <footer>
+    <p>&copy; 2023 Carlos Antonio Jacanamejoy Jamioy - Todos los derechos reservados</p>
+  </footer>
+  
+</body>
+</html>
+

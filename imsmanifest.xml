@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2
+                              imscp_rootv1p1p2.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2
+                              adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom>
+      <!-- Agrega aquí los metadatos de tu curso -->
+    </lom>
+  </metadata>
+  
+  <organizations>
+    <organization identifier="org1">
+      <title>Universidad de Ibagué</title>
+      <item identifier="item1" identifierref="resource1">
+        <title>Prime Strike</title>
+      </item>
+    </organization>
+  </organizations>
+  
+  <resources>
+    <resource identifier="resource1" type="webcontent" adlcp:scormType="sco" href="index.html">
+      <file href="index.html" />
+      <file href="css/style.css" />
+      <file href="js/componente.js" />
+      <file href="js/drawGame.js" />
+      <file href="js/eventos.js" />
+      <file href="js/initGame.js" />
+      <file href="js/score.js" />
+      <file href="js/scormfunctions.js" />
+    </resource>
+  </resources>
+</manifest>
+
