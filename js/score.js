@@ -94,6 +94,12 @@ class Score {
         ctx.font = 'bold 25px Arial';
         ctx.textAlign = "center";
         ctx.fillText(mensaje, w / 2, y);
+        // Resetea los puntos del nivel mostrado
+        this.simpleFactor = 0;
+        this.dobleFactor = 0;
+        this.tripleFactor = 0;
+        this.combo = 0;
+        
 
 
     }
