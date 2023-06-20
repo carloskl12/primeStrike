@@ -14,7 +14,7 @@ const initializeSCORM = () => {
 
   if (scormAPI) {
     // Inicializar la comunicación con el LMS
-    const result = scormAPI.Initialize("");
+    const result = scormAPI.LMSInitialize("");
 
     if (result === "true") {
       scormInitialized = true;
@@ -31,7 +31,7 @@ const initializeSCORM = () => {
 const terminateSCORM = () => {
   if (scormInitialized) {
     // Finalizar la comunicación con el LMS
-    const result = scormAPI.Terminate("");
+    const result = scormAPI.LMSFinish("");
 
     if (result === "true") {
       console.log("Comunicación SCORM finalizada correctamente");
