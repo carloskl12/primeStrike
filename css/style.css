@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+ 
+}
+
+h1 {
+  color: #9bcefd;
+  margin: 5px auto;
+  max-width: 480px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+canvas {
+    border:1px solid #000000;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    max-width: 480px;
+    box-sizing: border-box;
+}
+
+.contenido {
+  background-color: #041e3b;
+  margin: 0 auto; /* Establece márgenes superior e inferior en 0 y margen automático a los lados */
+  max-width: 800px; /* Establece el ancho máximo al 100% del contenedor padre */
+  box-sizing: border-box; /* Incluye el ancho del padding y el borde en el ancho total */
+  display: flex; /* Utilizamos el modelo de diseño flexible */
+  justify-content: center; /* Centramos horizontalmente los elementos */
+  /*align-items: center;  Centramos verticalmente los elementos */
+  align-items: flex-start; /* Centra los elementos hacia abajo */
+  flex-direction: column; /* Alinea los elementos en una columna */
+  padding: 2ex;
+  color:  #afceeb;
+}
+.divBotones {
+  width: 300px;
+  margin: 5px auto;
+}
+.canon {
+  color:#a9d0ff;
+  color:#65788d;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
